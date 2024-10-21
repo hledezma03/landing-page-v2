@@ -149,3 +149,42 @@ a {
     font-weight: bold;
     text-align: end;
 }
+
+.cta-container {
+    background-color: #3882f6;
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    padding: 3rem 4rem;
+    border-radius: 6px;
+}
+
+.cta-title {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.cta-section {
+    height: 20vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cta-text {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.cta-container .sign-up {
+    border: 2px solid #f9faf8;
+}
+
+#footer {
+    height: 10vh;
+}
+
+.copyright {
+    color: #f9faf8;
+    font-size: 24px;
+}
