@@ -89,3 +89,63 @@ a {
     font-weight: bolder;
     font-size: 18px;
 }
+
+.random-title {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    margin: 24px;
+}
+
+.cards-container {
+    display: flex;
+    justify-content: center;
+}
+
+.card-container {
+    width: 150px;
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card{
+    width: 180px;
+    height: 180px;
+    border-radius: 16px;
+    border: 5px solid #3882f6;
+    margin-bottom: 8px;
+
+}
+
+.card-text {
+    text-align: center;
+}
+
+.quote-section {
+    background-color: #e5e7eb;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    color: #1f2937;
+    max-width: 60vw;
+    text-align: justify;
+}
+
+.author {
+    font-size: 24px;
+    color: #000;
+    font-weight: bold;
+    text-align: end;
+}
