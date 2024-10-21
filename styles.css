@@ -4,3 +4,31 @@
     box-sizing: border-box;
     font-family: "Roboto", sans-serif;
 }
+
+.header, footer {
+    background-color: #1f2937;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+}
+
+.header-logo {
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+}
+
+a {
+    font-size: 18px;
+    color: #e5e7eb;
+    text-decoration: none;
+    margin-right: 1rem;
+}
