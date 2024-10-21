@@ -9,10 +9,35 @@
     background-color: #1f2937;
 }
 
-.header {
+.top-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 60vh;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
+
+.top-section-header {
     display: flex;
     justify-content: space-around;
-    padding: 1rem;
+}
+
+.top-section-bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottom-left-section {
+    max-width: 30vw;
+}
+.header-logo, .header-links {
+    margin-bottom: 1rem;
+}
+
+.top-section-left {
+    max-width: 40vw;
 }
 
 .header-logo {
@@ -33,17 +58,6 @@ a {
     margin-right: 1rem;
 }
 
-.top-section {
-    height: 70vh;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-}
-
-.top-section-left {
-    max-width: 40vw;
-}
-
 .title {
     font-size: 48px;
     color: #f9faf8;
@@ -53,4 +67,25 @@ a {
 .subtitle {
     font-size: 18px;
     color: #e5e7eb;
+}
+
+.img {
+    width: 40vw;
+    height: 250px;
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #f9faf8;
+}
+
+.sign-up {
+    background-color: #3882f6;
+    color: #e5e7eb;
+    border: none;
+    padding: 8px 24px;
+    border-radius: 8px;
+    margin-top: 1rem;
+    font-weight: bolder;
+    font-size: 18px;
 }
